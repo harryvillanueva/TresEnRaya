@@ -6,7 +6,7 @@ public class tresEnRaya {
     private static final char JUGADOR = 'X'; // Buena práctica
     private static final char MAQUINA = 'O';
     private static final char VACIO = '-';
-    private static  int contador = 0;
+    private static  int contador;
 
 
     private static char[][] tablero ;
@@ -16,7 +16,7 @@ public class tresEnRaya {
 
     public static void main(String[] args) {
 
-
+        contador = 0;
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         boolean turnoJugador = true;
